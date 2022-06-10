@@ -1,0 +1,29 @@
+using System;
+
+namespace Desafio__03
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string aluno1 = "Marcos";
+            int nota = 7;
+            string aluno2 = "Pedro";
+            int nota2 = 8;
+            string aluno3 = "João";
+            int nota3 = 10;
+            Console.Write("Informe o número de alunos");
+            int.Parse(Console.ReadLine());
+            Console.Write("Informe o nome do aluno");
+            Console.ReadLine();
+            Console.Write("Informe a nota do aluno");
+            int.Parse(Console.ReadLine());
+            Console.WriteLine("Aluno com a maior nota foi:");
+            Console.WriteLine("João nota:10");
+           
+            
+
+                
+        }
+    }
+}
